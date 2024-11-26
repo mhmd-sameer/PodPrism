@@ -44,10 +44,10 @@ const Navbar = () => {
 
           {/* Menu Links (Hidden on smaller screens, shown on large) */}
           <div className={`lg:flex lg:items-center space-x-6 text-white hidden`}>
-            <Link to="/Home" className="hover:text-gray-300">Dashboard</Link>
-            <Link to="/Podcast" className="hover:text-gray-300">Search</Link>
-            <Link to="/About" className="hover:text-gray-300">Favourites</Link>
-            <Link to="/Contact" className="hover:text-gray-300">Upload</Link>
+            <Link to="/dashboard" className="hover:text-gray-300">Dashboard</Link>
+            <Link to="/search" className="hover:text-gray-300">Search</Link>
+            <Link to="/favourites" className="hover:text-gray-300">Favourites</Link>
+            <Link to="/upload" className="hover:text-gray-300">Upload</Link>
             <button
               onClick={handleLogoutClick}
               className="text-white hover:text-gray-300"
@@ -60,10 +60,10 @@ const Navbar = () => {
         {/* Collapsible Menu for Smaller Screens */}
         {isMenuOpen && (
           <div className="flex flex-col mt-4 space-y-2 lg:hidden text-white">
-            <Link to="/Home" className="hover:text-gray-300">Dashboard</Link>
-            <Link to="/Podcast" className="hover:text-gray-300">Search</Link>
-            <Link to="/About" className="hover:text-gray-300">Favourites</Link>
-            <Link to="/Contact" className="hover:text-gray-300">Upload</Link>
+            <Link to="/dashboard" className="hover:text-gray-300">Dashboard</Link>
+            <Link to="/search" className="hover:text-gray-300">Search</Link>
+            <Link to="/favourites" className="hover:text-gray-300">Favourites</Link>
+            <Link to="/upload" className="hover:text-gray-300">Upload</Link>
             <button
               onClick={handleLogoutClick}
               className="text-white hover:text-gray-300"
