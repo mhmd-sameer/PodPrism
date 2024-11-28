@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar */}
-      <nav className="bg-blue-950 p-6 rounded-md z-50">
-        <div className="flex items-center justify-between">
+      <nav className="bg-blue-950 p-6 rounded-md w- z-50">
+        <div className="flex items-center justify-between max-w-screen-xl mx-auto">
           {/* Logo and Title */}
           <div className="flex items-center space-x-4">
             <img src={logo} alt="PodPrism" className="w-10 h-10 rounded-full" />
@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* Collapsible Menu for Smaller Screens */}
         {isMenuOpen && (
-          <div className="flex flex-col mt-4 space-y-2 lg:hidden text-white">
+          <div className="flex flex-col mt-4 space-y-2 lg:hidden text-white w-full">
             <Link to="/dashboard" className="hover:text-gray-300">Dashboard</Link>
             <Link to="/search" className="hover:text-gray-300">Search</Link>
             <Link to="/favourites" className="hover:text-gray-300">Favourites</Link>

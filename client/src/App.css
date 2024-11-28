@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+/* In your global CSS file or in a CSS module */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;  /* Hides the scrollbar for webkit browsers (Chrome, Safari) */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* Hides the scrollbar in Internet Explorer 10+ */
+  scrollbar-width: none;  /* Hides the scrollbar in Firefox */
+}
