@@ -1,10 +1,9 @@
-
 import './App.css'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Dashboard from './Components/Dashboard';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
-import Display from './Components/Display';
+import DisplayAlbum from './Components/DisplayAlbum';
 
 function App() {
 
@@ -14,6 +13,7 @@ function App() {
       <Route path="/Signup" element= {<Signup />} />
       <Route path='/login' element={<Login />} />
       <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/album/:id' element={<DisplayAlbum />} />
     </Routes>
     </BrowserRouter>
   )

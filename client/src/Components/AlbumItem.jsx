@@ -8,8 +8,9 @@ const AlbumItem = ({image,name,desc,id}) => {
         <img className='rounded' src={image} alt="" />
         <p className='font-bold mt-2 mb-1 text-blue-950'>{name}</p>
         <p className='text-sm text-blue-950'>{desc}</p>
+        <p className='text-sm text-blue-950'>{id}</p>
     </div>
   )
 }
-
+ 
 export default AlbumItem

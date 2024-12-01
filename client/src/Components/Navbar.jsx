@@ -10,10 +10,11 @@ const Navbar = () => {
     navigate('/login');
   };
 
+  
   return (
     <div>
       {/* Navbar */}
-      <nav className="bg-blue-950 p-6 rounded-md w- z-50">
+      <nav className="bg-blue-950 p-4 rounded-md w- z-50">
         <div className="flex items-center justify-between max-w-screen-xl mx-auto">
           {/* Logo and Title */}
           <div className="flex items-center space-x-4">

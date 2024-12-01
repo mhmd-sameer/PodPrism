@@ -1,11 +1,15 @@
 import Display from './Display'
 import Navbar from './Navbar'
 import Player from './Player'
-import { Routes, Route } from 'react-router-dom'
+import {PlayerContext} from '../Context/PlayerContext'
+import { useContext } from 'react'
 
 const Dashboard = () => {
+
+  const {audioRef,track} = useContext(PlayerContext);
+
   return (
-    <div className='h-screen w- bg-white flex flex-col'>
+    <div className='h-screen bg-white flex flex-col'>
       <Navbar />
       
       <div className='flex flex-col h-full overflow-hidden'>
@@ -15,12 +19,14 @@ const Dashboard = () => {
           <p className='bg-white text-blue-950 px-4 py-1 cursor-pointer'>Podcasts</p>
         </div>
         
-        <div className='mt-4 mb-[80px] overflow-y-auto scrollbar-hidden'>
+        <div className='mt-4 mb-[0px] overflow-y-auto scrollbar-hidden'>
           <Display />
         </div>
+
       </div>
 
       <Player className="fixed bottom-0 left-0 w-full z-10" />
+      <audio ref={audioRef} src={track.file} preload='auto'></audio>
     </div>
   )
 }
