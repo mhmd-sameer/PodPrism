@@ -52,6 +52,7 @@ const Signup = () => {
               placeholder="First Name"
               className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               onChange={(e) => setFirstName(e.target.value)}
+              required
             />
           </div>
           <div className="relative">
@@ -60,6 +61,7 @@ const Signup = () => {
               placeholder="Last Name"
               className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               onChange={(e) => setLastName(e.target.value)}
+              required
             />
           </div>
 
@@ -69,6 +71,7 @@ const Signup = () => {
               placeholder="Email"
               className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
 
@@ -78,6 +81,7 @@ const Signup = () => {
               placeholder="Password"
               className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               onChange={(e) => setPassword(e.target.value)}
+              required
             />
           </div>
 

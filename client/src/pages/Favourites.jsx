@@ -7,7 +7,7 @@ const Favourites = ({ favorites = [], toggleFavorite }) => {
   return (
     <div className='flex h-screen'>
       <Sidebar />
-    <div className="p-7 bg-gray-100 h-screen overflow-y-auto">
+    <div className="p-7 bg-gray-100 flex-1 h-screen overflow-y-auto">
       <h1 className="text-2xl font-bold mb-6">Your Favorite Podcasts</h1>
 
       {favorites.length === 0 ? (

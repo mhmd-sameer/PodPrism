@@ -43,6 +43,7 @@ const Login = () => {
                 placeholder="Email"
                 className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 onChange={(e) => setEmail(e.target.value)}
+                required
               />
               <span className="absolute right-3 top-3 text-gray-400">
                 <i className="fas fa-envelope"></i>
@@ -55,6 +56,7 @@ const Login = () => {
                 placeholder="Password"
                 className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 onChange={(e)=> setPassword(e.target.value)}
+                required
               />
               <span className="absolute right-3 top-3 text-gray-400">
                 <i className="fas fa-lock"></i>

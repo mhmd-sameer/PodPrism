@@ -22,7 +22,7 @@ export const musicData = {
     songs: [
       {
         id: 0,
-        name: "Song One",
+        name: "Pod One",
         image: img1,
         file: song1,
         desc: "Put a smile on your face with these happy tunes",
@@ -30,7 +30,7 @@ export const musicData = {
       },
       {
         id: 1,
-        name: "Song Two",
+        name: "Pod Two",
         image: img2,
         file: song2_1,
         desc: "Put a smile on your face with these happy tunes",
@@ -38,7 +38,7 @@ export const musicData = {
       },
       {
         id: 2,
-        name: "Song Three",
+        name: "Pod Three",
         image: img3,
         file: song3,
         desc: "Put a smile on your face with these happy tunes",
@@ -46,7 +46,7 @@ export const musicData = {
       },
       {
         id: 3,
-        name: "Song Four",
+        name: "Pod Four",
         image: img4,
         file: song1,
         desc: "Put a smile on your face with these happy tunes",
@@ -54,7 +54,7 @@ export const musicData = {
       },
       {
         id: 4,
-        name: "Song Five",
+        name: "Pod Five",
         image: img5,
         file: song2_2,
         desc: "Put a smile on your face with these happy tunes",
@@ -62,7 +62,7 @@ export const musicData = {
       },
       {
         id: 5,
-        name: "Song Six",
+        name: "Pod Six",
         image: img14,
         file: song3,
         desc: "Put a smile on your face with these happy tunes",
@@ -70,7 +70,7 @@ export const musicData = {
       },
       {
         id: 6,
-        name: "Song Seven",
+        name: "Pod Seven",
         image: img7,
         file: song1,
         desc: "Put a smile on your face with these happy tunes",
@@ -78,7 +78,7 @@ export const musicData = {
       },
       {
         id: 7,
-        name: "Song Eight",
+        name: "Pod Eight",
         image: img11,
         file: song2_1,
         desc: "Put a smile on your face with these happy tunes",

@@ -4,10 +4,10 @@ import profile from '../assets/Default_pfp.jpg';
 
 const Profile = () => {
   const [user, setUser] = useState({
-    name: 'John Doe',
-    email: 'johndoe@example.com',
+    name: 'Sameer',
+    email: 'mohammedsameerb.22aid@kongu.edu',
     bio: 'Podcast enthusiast and creator. Exploring the world one episode at a time.',
-    location: 'New York, USA',
+    location: 'Tamil Nadu, India',
     profilePicture: 'https://via.placeholder.com/150', // Replace with actual profile picture URL
   });
 
